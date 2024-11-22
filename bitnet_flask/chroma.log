@@ -1,0 +1,28 @@
+[33mWARNING[0m:  [16-11-2024 13:50:36] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [16-11-2024 13:50:36] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [16-11-2024 13:50:36] Starting component System
+[36mDEBUG[0m:    [16-11-2024 13:50:36] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [16-11-2024 13:50:36] Starting component SqliteDB
+[36mDEBUG[0m:    [16-11-2024 13:50:42] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [16-11-2024 13:50:42] Starting component Posthog
+[36mDEBUG[0m:    [16-11-2024 13:50:42] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [16-11-2024 13:50:42] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [16-11-2024 13:50:42] Starting component LocalExecutor
+[36mDEBUG[0m:    [16-11-2024 13:50:42] Starting component SegmentAPI
+[32mINFO[0m:     [16-11-2024 13:50:43] Started server process [[36m25792[0m]
+[32mINFO[0m:     [16-11-2024 13:50:43] Waiting for application startup.
+[32mINFO[0m:     [16-11-2024 13:50:43] Application startup complete.
+[32mINFO[0m:     [16-11-2024 13:50:43] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [16-11-2024 13:51:35] Shutting down
+[32mINFO[0m:     [16-11-2024 13:51:35] Waiting for application shutdown.
+[36mDEBUG[0m:    [16-11-2024 13:51:35] Stopping component System
+[36mDEBUG[0m:    [16-11-2024 13:51:35] Stopping component SegmentAPI
+[36mDEBUG[0m:    [16-11-2024 13:51:35] Stopping component LocalExecutor
+[36mDEBUG[0m:    [16-11-2024 13:51:35] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [16-11-2024 13:51:35] Stopping component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [16-11-2024 13:51:35] Stopping component Posthog
+[36mDEBUG[0m:    [16-11-2024 13:51:35] Stopping component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [16-11-2024 13:51:35] Stopping component SqliteDB
+[36mDEBUG[0m:    [16-11-2024 13:51:35] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [16-11-2024 13:51:35] Application shutdown complete.
+[32mINFO[0m:     [16-11-2024 13:51:35] Finished server process [[36m25792[0m]
